@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "b1173281-404a-4cca-90a5-9a16275e7287",
+		"name": "123",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "QQtest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://ssl.zc.qq.com/cgi-bin/zc/get_acc?qzone_flag=1&smsvc=123456&nick=沃克&telephone=008615221262203&password=dasfsdfsdafdgf",
+					"protocol": "https",
+					"host": [
+						"ssl",
+						"zc",
+						"qq",
+						"com"
+					],
+					"path": [
+						"cgi-bin",
+						"zc",
+						"get_acc"
+					],
+					"query": [
+						{
+							"key": "qzone_flag",
+							"value": "1"
+						},
+						{
+							"key": "smsvc",
+							"value": "123456"
+						},
+						{
+							"key": "nick",
+							"value": "沃克"
+						},
+						{
+							"key": "telephone",
+							"value": "008615221262203"
+						},
+						{
+							"key": "password",
+							"value": "dasfsdfsdafdgf"
+						}
+					]
+				},
+				"description": "first.test\t"
+			},
+			"response": []
+		},
+		{
+			"name": "WWW.BAIDU.COM",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "WWW.BAIDU.COM",
+					"host": [
+						"WWW",
+						"BAIDU",
+						"COM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "32434",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "c8b147ec-d327-41ea-9da5-591dc474e909",
+						"exec": [
+							"console.log(pm.info.requestName);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "a94be0c8-fe00-4706-bcf5-b12893f4da28",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://search.douban.com/book/subject_search?search_text=%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96",
+					"protocol": "https",
+					"host": [
+						"search",
+						"douban",
+						"com"
+					],
+					"path": [
+						"book",
+						"subject_search"
+					],
+					"query": [
+						{
+							"key": "search_text",
+							"value": "%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
